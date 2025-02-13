@@ -3,35 +3,8 @@
 
 # About the Project
 
-Ticketz is a communicator with CRM and helpdesk features that utilizes WhatsApp as a means of communication with clients.
+Whatendimento is a communicator with CRM and helpdesk features that utilizes WhatsApp as a means of communication with clients.
 
-## Original Authorship
-
-This project was initiated in [an Open Source project](https://github.com/canove/whaticket-community), published by the developer [Cassio Santos](https://github.com/canove) under the permissive MIT license. It later received various improvements by unidentified authors and was commercially distributed directly between developers and users with the provision of source code. According to information from [this video, it was leaked and publicly released at some point](https://www.youtube.com/watch?v=SX_cGD5RLkQ).
-
-After some research, it was further identified that the first SaaS version of Whaticket was created by the developer [Wender Teixeira](https://github.com/w3nder), including a version of [Whaticket Single](https://github.com/unkbot/whaticket-free) that uses the Baileys library for WhatsApp access.
-
-It is practically impossible to identify and credit the authors of the improvements. [The code published by the Vem Fazer channel](https://github.com/vemfazer/whaticket-versao-03-12-canal-vem-fazer) does not mention any license; therefore, I am assuming that all authors are comfortable with keeping these changes under the same license as the original project (MIT).
-
-## Relicensing
-
-As I am making these changes and providing them at no cost, I want them to be available to everyone. Therefore, I am choosing to relicense under the AGPL, which requires that every user who has access to the system can obtain the source code.
-
-Therefore, if you directly utilize this version, it is **very important to keep the link on the "About Ticketz" screen, which provides access to the repository**. If you wish, you can move the link to the source code elsewhere, but it must be easily accessible to any system user.
-
-If you make changes to the code, you must change the link to a repository or another way to obtain the code for your changes.
-
-If you wish to use parts of the code to fix any code **for your own use**, feel free to do so and you don't need to worry about the AGPL license. However, if you want to use any part added in this project in a system that you commercialize, you must either provide the code of your entire system to its users, or you must contact the author of the code to license it under different criteria.
-
-## Objective
-
-The objective of this project is to improve and keep open updates about the published Whaticket SaaS. Mainly focused on application quality and ease of installation and use.
-
-The improvements developed by me will be placed here, and depending on the situation, I can transpose, always crediting, codes and improvements published in other projects also derived from Whaticket Community or Whaticket SaaS.
-
-## Contributing Back
-
-Whenever possible, I intend to backport some adjustments made here to the original projects.
 
 Very Quick Start on a public Server
 -----------------------------------
@@ -42,9 +15,9 @@ There are Docker images provided from the project, so you can get **ticketz** to
 
 Before starting you must complete this checklist:
 
-- [ ] Have a clean server running Ubuntu 20 or newer
-- [ ] Ports 80 and 443 available and not filtered by firewall
-- [ ] One hostname with configured DNS pointing to your server
+- [X] Have a clean server running Ubuntu 20 or newer
+- [X] Ports 80 and 443 available and not filtered by firewall
+- [X] One hostname with configured DNS pointing to your server
 
 After this, just log in to your server and issue the following command, replacing the hostnames you already configured and your email address:
 
